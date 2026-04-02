@@ -1,0 +1,28 @@
+{
+  "name": "ai_agent_mcp",
+  "version": "1.0.0",
+  "description": "Build AI Agent that integrates with MCP and book flights",
+  "main": "src/agent.js",
+  "scripts": {
+    "start": "node src/agent.js",
+    "seed": "node src/seed.js",
+    "test": "node src/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/archiparikh/AI_Agent_MCP.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/archiparikh/AI_Agent_MCP/issues"
+  },
+  "homepage": "https://github.com/archiparikh/AI_Agent_MCP#readme",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.82.0",
+    "mongodb": "^7.1.1",
+    "mongodb-mcp-server": "^1.9.0"
+  }
+}
